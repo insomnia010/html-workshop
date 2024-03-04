@@ -12,49 +12,59 @@
 
 <div class="container" style="padding: 1em">
     <div id="textBox">
-        <h1>Nimetus</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur eget lectus mi. Donec lorem magna,
-            elementum ac dui in, posuere pharetra odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Curabitur eget lectus mi. Donec lorem magna, elementum ac dui in, posuere pharetra odio.</p>
+        <h1>CUtE siamese cat</h1>
+        <p>CUTE CAT WIKI copy :)</p>
     </div>
-    <img id="photo" src="images/img.png">
+    <img id="photo" src="images/Siamese-Cat_0.png">
 </div>
 
 <!-- Lõbusad faktid -->
 
 <div class="container">
     <div class="card">
-        <!-- Tee see osa ise! -->
+        <img id="photo"src="images/Siamese_Cat_29_1.png">
     </div>
     <div class="card">
-        <!-- Tee see osa ise! -->
+        <img src="https://media4.giphy.com/media/doOFJsHmFUtPV1Iaf4/giphy.gif?cid=6c09b9523jt02ejz1jb5ldozf45wg4s0l1ysda1nwhs4ekt7&ep=v1_stickers_related&rid=giphy.gif&ct=s">
     </div>
     <div class="card">
-        <!-- Tee see osa ise! -->
+         <img id="photo"src="images/Siamese_Cat_29_12.png">
     </div>
 </div>
 
 <!-- Video -->
 
 <div class="container" style="flex-flow: column">
-    <iframe id="video" src="https://www.youtube.com/embed/WLT7TDGzXGU?si=z5_UTSHfVFkCDm6X" title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Nby0afEfBx0?si=2u6ioPyG6F4NKKj8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <!-- max-width paneb ette piiri, et kui pikk võib tekst olla -->
-    <p style="max-width: 55em">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a odio vel lorem congue
-        facilisis. Praesent consequat leo arcu, in gravida erat fringilla in. Pellentesque dictum accumsan leo, in
-        consectetur eros malesuada quis. Ut congue turpis eget interdum egestas. </p>
+    <p style="max-width: 55em">I was 7 when Mom got two Seal point Siamese kittens, Phu Cat (foo) and Bein (ben) Cat. Bein died of Feline Leukemia in 1976, Phu Cat lived to be 19. He was my kitty, no doubt, from first grade to high school graduation, (he was in my Senior picture) to my enlistment in the Coast Guard, and my return to Las Vegas in 1983. He was cremated, and Mom and I buried his ashes under his favorite rose bush, a beautiful yellow called Honor. I'm 61 now, and have had many cats in my life, but I still miss Phu Cat, and think of him often. ✌️💖😺 </p>
 </div>
 
 <!-- Lisainfo -->
 
 <div>
-    <h1>Lisainfo</h1>
-    <div class="container">
-        <!-- Tee see osa ise! -->
+    <h1 style="text-align:center">Lisainfo</h1>
+    <div class="container" >
+
     </div>
 </div>
+<button id = "heart" type="button">Hearts</button>
 
 </body>
+<script>
+    let button = document.getElementById("heart")
+    button.addEventListener("click", function(){
+        let body = document.body;
+       // body.style.background = "#ffc7ff";
+        if (body.style.background.toLowerCase() === "pink"){
+                body.style.background = "#ffffff";
+        }
+        else{
+            body.style.background = "pink";
+        }
+
+
+    });
+</script>
     
 </html>
