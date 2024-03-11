@@ -29,8 +29,10 @@ body {
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
+}
+.button1 {
   border-radius: 15px;
-
+}
 #textBox {
     max-height: 25em;
     overflow-x: hidden;
